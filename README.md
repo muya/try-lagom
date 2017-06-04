@@ -3,6 +3,18 @@ Project to play around with the Lagom Framework: https://www.lagomframework.com/
 
 Hello world based off the default template
 
+#### Running the project
+1. Ensure you have SBT installed (at least 0.13.13), and Java 8+
+2. Clone this repo
+3. Enter the `hello` directory
+```
+$ cd hello
+```
+4. Run the project
+```
+$ sbt runAll
+```
+
 #### Summary of the Lagom Framework exploration
 - Uses macwire for DI (rather than Guice, which is what's in Play) -- Good read: [http://di-in-scala.github.io/](http://di-in-scala.github.io/)
 - I'd describe it as a framework for implementing an already thought out & designed micro-service architecture
